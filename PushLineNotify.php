@@ -3,7 +3,7 @@
     date_default_timezone_set('Asia/Bangkok');
     header('Content-Type: application/json');
 
-    $token = "VvBQYxbKu8UM3WAUc9ALjb3c9y7xDx1sox17gNFUX4Y"; // Toekn สำหรับระบบตรวจร่างคำพิพากษาทางสื่ออิเล็กทรอนิกส์
+    $token = "VvBQYxbKu8UM3WAUc9ALjb3c9y7xDx1sox17gNFUX4Y"; // Token สำหรับระบบตรวจร่างคำพิพากษาทางสื่ออิเล็กทรอนิกส์
 
     $judge_name = $_POST["judge_name"];
     $court_name = $_POST["court_name"];
